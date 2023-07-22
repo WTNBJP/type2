@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>タイピング</title>
+</head>
+<body>
+  <div class="content" id="content">
+    <div class="counter" id="counter"></div>
+    <div class="sentenceEnglish" id="sentenceEnglish"></div>
+    <div class="sentence-jp" id="sentence-jp"></div>
+    <pre id="pre">
+      <span class="typed" id="typed"></span><span class="sentence" id="sentence"></span>
+    </pre>
+    <button class="JP" id="JP">日本語</button>
+    <button class="EN" id="EN">英語</button>
+    <input type="text" class="set-time" id="set-time" placeholder="制限時間を半角数字で入力(秒)">
+    <div class="miss" id="miss"></div>
+  </div>
+  <div class="scores" id="scores"></div>
+  <div class="miss-score" id="miss-score"></div>
+  <div class="persent" id="persent"></div>
+  <script src="key.js"></script>
+  <script src="sentence.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
